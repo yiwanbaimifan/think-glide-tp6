@@ -1,0 +1,31 @@
+{
+    "name": "yiwanbaimifan/think-glide-tp6",
+    "description": "ThinkPHP adapter for using Glide image manipulation library",
+    "type": "library",
+    "keywords": ["thinkphp", "glide", "think-glide-tp6"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yiwanbaimifan"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0",
+        "league/glide": "^1.3",
+        "symfony/options-resolver": "^2.0|^3.0|^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slince\\Glide\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Slince\\Glide\\Test\\": "tests"
+        }
+    }
+}
